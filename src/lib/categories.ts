@@ -1,4 +1,4 @@
-import { BsBank2, BsAirplane } from 'react-icons/bs';
+import { BsBank2, BsAirplane, BsFileEarmarkCode } from 'react-icons/bs';
 
 export interface DataCategory {
   id: string;
@@ -9,6 +9,13 @@ export interface DataCategory {
 }
 
 export const dataCategories: DataCategory[] = [
+  {
+    id: 'schema-based',
+    title: 'Schema-Based Generator',
+    description: 'Generate data using your custom JSON schema',
+    icon: BsFileEarmarkCode,
+    route: '/generate/schema',
+  },
   {
     id: 'bank-customer',
     title: 'Bank Customer Data',
