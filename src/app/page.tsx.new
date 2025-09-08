@@ -1,12 +1,12 @@
-import HomeContent from '@/components/HomeContent';
+import HomePage from '@/components/HomePage';
 
-export default function HomePage() {
+export default function Home() {
   return (
     <main className="min-h-screen p-8 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Test Data Generator</h1>
         <p className="text-xl text-gray-600 mb-8">Select a category to generate test data</p>
-        <HomeContent />
+        <HomePage />
       </div>
     </main>
   );
